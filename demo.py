@@ -4,21 +4,29 @@ import src.utils as utils
 import src.local_config as local_config
 import time
 # 配置文件路径
-txtdir = local_config.novelQAtxtdir
-start_file = "Wuthering Heights.txt"
+# txtdir = "In put your txt document path here"
 
-# 读取小说文本
-files = sorted(os.listdir(txtdir))
-start_index = files.index(start_file) if start_file in files else 0
-file = files[start_index]
-with open(os.path.join(txtdir, file), "r") as f:
+# # start_file = "Wuthering Heights.txt"
+
+# # # 读取小说文本
+# # files = sorted(os.listdir(txtdir))
+# # start_index = files.index(start_file) if start_file in files else 0
+# # file = files[start_index]
+
+# with open(os.path.join(txtdir, file), "r") as f:
+#     context = f.read()
+
+
+txt_path = "Input your txt document path here"  # 例如: "data/Wuthering_Heights.txt"
+
+# 获取文件名用于后续展示
+file = os.path.basename(txt_path)
+
+# 读取小说文本内容
+with open(txt_path, "r", encoding="utf-8") as f:
     context = f.read()
 
-# # 创建输出文件夹
-# os.makedirs(local_config.res_mc_dir, exist_ok=True)
-# os.makedirs(local_config.log_directory, exist_ok=True)
-# os.makedirs(local_config.output_folder, exist_ok=True)
-# os.makedirs(local_config.matrix_folder, exist_ok=True)
+
 time_stamp=time.time()
 DEMO_LOG_DIR=f"DEMO_LOG/{local_config.common_model}+{time_stamp}"
 os.makedirs(DEMO_LOG_DIR, exist_ok=True)
