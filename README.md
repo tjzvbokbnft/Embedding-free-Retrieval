@@ -48,7 +48,7 @@ This repository presents a lightweight, embedding-free retrieval-augmented gener
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your_username>/Embedding-free-Retrieval.git
+git clone https://github.com/tjzvbokbnft/Embedding-free-Retrieval.git
 cd Embedding-free-Retrieval
 
 #play with demo
