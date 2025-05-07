@@ -43,7 +43,7 @@ literary_stopwords ={
 }
 
 #config history folders
-matching_method=f'Gglobal+{voter_num}voters+commonword+cot+2x{neighbor_num}neighbours+deep_search{deep_search_num}+CTX_{num_ctx}'
+matching_method=f'{voter_num}voters+cot+2x{neighbor_num}neighbours+deep_search{deep_search_num}+CTX_{num_ctx}'
 history_folder=f'History/{dataset}+{common_model}+{matching_method}@{recall_index}'#root folder
 res_mc_dir=f'{history_folder}/res_mc'#reslt folder
 log_directory = f'{history_folder}/logs'#logging folder
