@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/arXiv-coming--soon-red.svg?style=flat-square" alt="arXiv coming soon">
+</p>
+
+
 # Embedding-free-Retrieval
 
 This repository presents a lightweight, embedding-free retrieval-augmented generation (RAG) framework that replaces vector search with lexical overlap and iterative keyword refinement. It leverages LLM reasoning instead of static embeddings to enable fast and accurate long-context retrieval.
