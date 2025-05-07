@@ -2,4 +2,4 @@ ollama==0.3.3
 numpy==1.26.4
 requests==2.32.3
 nltk==3.9.1
-string_noise  #optional 
+string_noise  #optional (To use this package, you must manually add it to your site-packages directory. If you don't need it, simply delete the related code.)
