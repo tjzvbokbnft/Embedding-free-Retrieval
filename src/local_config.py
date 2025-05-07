@@ -1,10 +1,10 @@
 from ollama import Client
 #Config LLM parameters here
-recall_index=30
-neighbor_num=1
+recall_index=25
+neighbor_num=2
 deep_search_index=5
 deep_search_num=10
-voter_num=1
+voter_num=10
 num_ctx=21145
 
 #config ollama
