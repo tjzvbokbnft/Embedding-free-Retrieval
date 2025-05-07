@@ -5,6 +5,7 @@ This repository presents a lightweight, embedding-free retrieval-augmented gener
 ## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
+- [Performance Analysis](#Performance-Analysis)
 - [🔧 Installation & Quick Start](#-installation--quick-start)
 - [📄 How to Get Results on NovelQA and Marathon](#-how-to-get-results-on-novelqa-and-marathon)
 
@@ -25,9 +26,17 @@ This repository presents a lightweight, embedding-free retrieval-augmented gener
 - `.gitignore`: Standard ignored files.
 - `Readme.md`: Project documentation.
 
-## Performance
+## Performance Analysis
 
-[📄 View time3d.pdf](time3d.pdf)
+### QA Retrieval Accuracy
+![QA Retrieval Accuracy](performance/ret.png)
+
+### Average Query Time by Context Length and Query Volume
+![Average Query Time](performance/Time%203D.jpg)
+
+### Total Time Consumption by Context Length
+![Total Time Consumption](performance/Total%20time.jpg)
+
 
 ## 🔧 Installation & Quick Start
 
