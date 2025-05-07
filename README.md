@@ -80,8 +80,8 @@ To evaluate the performance of this framework on **NovelQA** and **Marathon**, p
 - [Submission](https://openbenchmark.online/marathon/)
 
 ##License
-MIT 
+- MIT 
 
 ##Citation
-If Embedding-free Retrieval assists in your research, please cite it as follows:
+- If Embedding-free Retrieval assists in your research, please cite it as follows:
 
