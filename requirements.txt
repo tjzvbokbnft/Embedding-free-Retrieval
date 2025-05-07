@@ -1,0 +1,5 @@
+ollama==0.3.3
+numpy==1.26.4
+requests==2.32.3
+nltk==3.9.1
+string_noise  #optional 

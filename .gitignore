@@ -1,0 +1,7 @@
+*.json
+*.pyc
+*.content
+*.log
+/newData
+/nvQA
+*.DS_Store
