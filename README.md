@@ -51,7 +51,11 @@ This repository presents a lightweight, embedding-free retrieval-augmented gener
 git clone https://github.com/tjzvbokbnft/Embedding-free-Retrieval.git
 cd Embedding-free-Retrieval
 
+pip install -r requirements.txt
+
 #play with demo
+#config your txt path in demo.py
+#config other parameters in scr/local_config.py
 python demo.py
 
 # Reproduce on NovelQA benchmark
@@ -61,8 +65,7 @@ python reproduce/test_novelqa.py
 python reproduce/test_marathon.py
 ```
 ### 2.Basic Usages
-- config your txt path in demo.py
-- config other parameters in scr/local_config.py
+
 
 ## 📄 How to Get Results on NovelQA and Marathon
 
