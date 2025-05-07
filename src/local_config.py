@@ -5,7 +5,7 @@ neighbor_num=1
 deep_search_index=5
 deep_search_num=10
 voter_num=1
-num_ctx=20000
+num_ctx=21145
 
 #config ollama
 url="http://localhost:11434/api/generate"
