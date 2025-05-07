@@ -78,3 +78,10 @@ To evaluate the performance of this framework on **NovelQA** and **Marathon**, p
 #### 🏃 Marathon
 - [GitHub Repository](https://github.com/Hambaobao/Marathon)
 - [Submission](https://openbenchmark.online/marathon/)
+
+##License
+MIT 
+
+##Citation
+If Embedding-free Retrieval assists in your research, please cite it as follows:
+
