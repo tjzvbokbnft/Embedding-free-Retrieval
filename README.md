@@ -18,10 +18,13 @@ This repository presents a lightweight, embedding-free retrieval-augmented gener
 
 ## Features
 
-- **Embedding-Free**: No need for dense vector indices or offline embedding generation.
-- **Efficient**: Minimal preprocessing and indexing cost.
-- **LLM-Aware**: Uses language model reasoning to guide retrieval.
-- **Evaluated on**: NovelQA and Marathon datasets.
+- **Embedding-Free Retrieval**: Eliminates the reliance on embedding models and dense retrievers.
+
+- **Fast Response & Deployment**: Minimal offline preparation and indexing time enables fast responses and rapid deployment.
+
+- **Lightweight Reasoning**: Utilizes LLMs’ native lexical and reasoning abilities—no need to construct graph or tree databases.
+
+- **Strong Performance**: Outperforms baselines on long-context QA benchmarks such as NovelQA and Marathon.
 
 ## Project Structure
 
