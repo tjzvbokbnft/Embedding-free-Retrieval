@@ -58,7 +58,7 @@ git clone https://github.com/tjzvbokbnft/Embedding-free-Retrieval.git
 cd Embedding-free-Retrieval
 
 #string_noise --> optional (To use this package, you must manually add it to your site-packages directory.
-#If you don't need it, simply delete the related code.)
+#If you don't need it, simply delete the related code. -->using without the importance metric)
 pip install -r requirements.txt
 
 #play with demo
