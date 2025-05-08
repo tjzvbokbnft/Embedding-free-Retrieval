@@ -36,8 +36,7 @@ This repository presents a lightweight, embedding-free retrieval-augmented gener
 - `Readme.md`: Project documentation.
 
 ## Framework
-- ![QA Retrieval Accuracy](framework/framework1.png)
-- ![QA Retrieval Accuracy](framework/framework2.png)
+![framework](framework/framework1.png)
 ## Performance Analysis
 
 ### QA Retrieval Accuracy
