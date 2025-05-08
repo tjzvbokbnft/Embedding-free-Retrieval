@@ -10,6 +10,7 @@ This repository presents a lightweight, embedding-free retrieval-augmented gener
 ## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
+- [Framework](#Framework)
 - [Performance Analysis](#Performance-Analysis)
 - [🔧 Installation & Quick Start](#-installation--quick-start)
 - [📄 How to Get Results on NovelQA and Marathon](#-how-to-get-results-on-novelqa-and-marathon)
@@ -31,6 +32,9 @@ This repository presents a lightweight, embedding-free retrieval-augmented gener
 - `.gitignore`: Standard ignored files.
 - `Readme.md`: Project documentation.
 
+## Framework
+- ![QA Retrieval Accuracy](framework/framework1.png)
+- ![QA Retrieval Accuracy](framework/framework2.png)
 ## Performance Analysis
 
 ### QA Retrieval Accuracy
